@@ -109,12 +109,12 @@ p{
  }
 
  .ads-item1{
-    background-image: url(../images/ads-img1.jpg);
+    background-image: url(./assets/images/ads-img1.jpg);
     margin-right: 1%;
  }
 
  .ads-item2{
-    background-image: url(../images/ads-img2.jpg);
+    background-image: url(./assets/images/ads-img2.jpg);
  }
 
  .ads-items{
@@ -211,7 +211,7 @@ p{
     width: 85%;
     height: 350px;
     margin: 4em auto;
-    background-image: url(/assets/images/discount-img.jpg);
+    background-image: url(./assets/images/discount-img.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -252,21 +252,21 @@ p{
 
 /* Ads2 */
  .ads-item3{
-    background-image: url(../images/ads-img3.jpg);
+    background-image: url(./assets/images/ads-img3.jpg);
     margin-right: 1%;
  }
 
  .ads-item4{
-    background-image: url(../images/ads-img4.jpg);
+    background-image: url(./assets/images/ads-img4.jpg);
  }
  
  .ads-item5{
-    background-image: url(../images/ads-img5.jpg);
+    background-image: url(./assets/images/ads-img5.jpg);
     margin-right: 1%;
  }
 
  .ads-item6{
-    background-image: url(../images/ads-img6.jpg);
+    background-image: url(./assets/images/ads-img6.jpg);
  }
 
  /* resavation */
@@ -327,7 +327,7 @@ p{
 
  form h3::after{
    content: "";
-   background-image: url(/assets/images/reservation-cards.png);
+   background-image: url(./assets/images/reservation-cards.png);
    background-size: contain;
    background-repeat: no-repeat;
    display: block;
@@ -365,7 +365,7 @@ p{
 }
 
 footer{
-   background-image: url(/assets/images/footer-img.jpg);
+   background-image: url(./assets/images/footer-img.jpg);
    background-position: center;
    background-size: cover;
    padding-top: 2em;
