@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <table>
+        <form action="">
+        <tr>
+            <th><label for="full_name">FUll Name <span style="color: red;">*</span></label></th>
+            <td>
+                <input type="text" name="first-name" id="full_name" placeholder="First Name" required>
+                <input type="text" name="last-name" id="full_name" placeholder="Last Name" required>
+            </td>
+        </tr>
+
+        <tr>
+            <th><label for="university">University <span style="color: red;">*</span></label></th>
+            <td>
+                <select name="university" id="university" required>
+                    <option value="" hidden>Select University</option>
+                    <option value="tokyo">TOKYO University</option>
+                    <option value="kyoto">KYOTO University</option>
+                    <option value="bagio">BAGIO University</option>           
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <th><label for="if_other_university">If Other-please Specify</label></th>
+            <td>
+                <input type="text" name="if-other-university" id="if_other_university">
+            </td>
+        </tr>
+
+        <tr>
+            <th><label for="faculty">Faculty <span style="color: red;">*</span></label></th>
+            <td>
+                <select name="faculty" id="faculty" required>
+                    <option value="" hidden>Select Faculty</option>
+                    <option value="economy">Economy</option>
+                    <option value="enviroment">Enviroment</option>
+                    <option value="accountant">Accountant</option>
+                </select>
+            </td>
+        </tr>
+        
+        <tr>
+            <th><label for="if_other_faulty">If Other-please Specify</label></th>
+            <td>
+                <input type="text" name="if-other-faulty" id="if_other_faulty">
+            </td>
+        </tr>
+
+        <tr>
+            <th><label for="academic_year">Academic year of PhD</label></th>
+            <td>
+                <select name="academic-year" id="academic_year">
+                    <option value="" hidden></option>
+                    <option value="1999">1999</option>
+                    <option value="2000">2000</option>
+                    <option value="2001">2001</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <th><p>Where would you like to work?</p></th>
+
+                <td>
+                    <input type="checkbox" name="academia" id="academia" value="academia">
+                    <label for="academia">Academia</label>
+           
+                    <input type="checkbox" name="industry" id="industry" value="industry">
+                    <label for="industry">Industry</label>    
+            
+                    <input type="checkbox" name="consultancy" id="consultancy" value="consultancy">
+                    <label for="consultancy">Consultancy</label>   
+               
+                    <input type="checkbox" name="finance" id="finance" value="finance">
+                    <label for="finance">Finance</label>
+            
+                    <input type="checkbox" name="p-g-n" id="p_g_n" value="policy_government_ngo">
+                    <label for="p_g_n">Policy/ Government/ NGO</label>
+                </td>
+        </tr>
+           
+        <tr>
+            <th><label for="email">E-mail <span style="color: red;">*</span></label></th>
+            <td>
+                <input type="email" name="email" id="email" placeholder="ex. myname@example.com" required>
+                <input type="email" name="confirm-email" id="email" placeholder="Confirm Email" required>
+            </td>
+        </tr>
+
+        <tr>
+            <th><p>Would you like to sign up to our newsletter?</p></th>
+   
+            <td>
+                <input type="radio" name="newsletter" id="yes" value="yes">
+                <label for="yes">Yes</label>
+            
+                <input type="radio" name="newsletter" id="no_already" value="no_already">
+                <label for="no_already">No. I have already singned up</label>
+           
+                <input type="radio" name="newsletter" id="no" value="no">
+                <label for="no">No</label>
+            </td>
+        </tr>
+<input type="submit" name="btn-submit" id="btn_submit" value="Submit">
+ 
+
+</form>
+    </table>
+    
+
+
+</body>
+</html>
